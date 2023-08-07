@@ -16,10 +16,10 @@
           <div id="main">
             <div id="content">
               <div id="links-container">
-                <a href="#">Images</a>
-                <a href="#">Gmail</a>
-                <a href="#">Store</a>
-                <a href="#">About</a>
+                <a href="https://www.google.com/imghp?hl=en&ogbl" target="_blank">Images</a>
+                <a href="https://www.google.com/gmail/about/" target="_blank">Gmail</a>
+                <a href="https://store.google.com/?utm_source=app_launcher&utm_medium=google_oo&utm_campaign=GS107345&pli=1&hl=en-GB" target="_blank">Store</a>
+                <a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1" target="_blank">About</a>
               </div>
               <div id="header-container">
                 <img id="logo" src="./doodle.png" alt="Google Doodle" />
@@ -27,66 +27,71 @@
               <div id="search-container">
                 <div id="search-input-container">
                   <img src="./googleicon.png" alt="" />
-                  <input type="text" placeholder="Search anything" />
+                  <form id="search-form">
+                    <div id="search-input-container">
+                      <input type="text" placeholder="Search anything" />
+                      <div id="search-results-container"></div>
+                    </div>
+                  </form>
                 </div>
                 <button id="mic-button" type="button">
-                  <i class="fa-regular fa-microphone"></i>
+                    <i class="fa-regular fa-microphone"></i>
                 </button>
                 <button id="image-button" type="button">
-                  <i class="fa-regular fa-camera"></i>
+                    <i class="fa-regular fa-camera"></i>
                 </button>
-              </div>
+              </div>              
               <div id="apps-container">
-                <a href="#">
+                <a href="https://codepen.io/" target="_blank">
                   <i class="fa-brands fa-codepen"></i>
                   <div class="label">
                     <span class="name">CodePen</span>
                     <span class="url">codepen.io</span>
                   </div>
                 </a>
-                <a href="#">
+                <a href="https://www.youtube.com/" target="_blank">
                   <i class="fa-brands fa-youtube"></i>
                   <div class="label">
                     <span class="name">YouTube</span>
                     <span class="url">youtube.com</span>
                   </div>
                 </a>
-                <a href="#">
+                <a href="https://open.spotify.com/?" target="_blank">
                   <i class="fa-brands fa-spotify"></i>
                   <div class="label">
                     <span class="name">Spotify</span>
                     <span class="url">spotify.com</span>
                   </div>
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/" target="_blank">
                   <i class="fa-brands fa-twitter"></i>
                   <div class="label">
                     <span class="name">Twitter</span>
                     <span class="url">twitter.com</span>
                   </div>
                 </a>
-                <a href="#">
+                <a href="https://airbnb.com/" target="_blank">
                   <i class="fa-brands fa-airbnb"></i>
                   <div class="label">
                     <span class="name">Airbnb</span>
                     <span class="url">airbnb.com</span>
                   </div>
                 </a>
-                <a href="#">
+                <a href="https://www.wikipedia.org/" target="_blank">
                   <i class="fa-brands fa-wikipedia-w"></i>
                   <div class="label">
                     <span class="name">Wikipedia</span>
-                    <span class="url">wikipedia.com</span>
+                    <span class="url">wikipedia.org</span>
                   </div>
                 </a>
-                <a href="#">
+                <a href="https://github.com/aarnav1729" target="_blank">
                   <i class="fa-brands fa-github"></i>
                   <div class="label">
                     <span class="name">Github</span>
                     <span class="url">github.com</span>
                   </div>
                 </a>
-                <a href="#">
+                <a href="https://xbox.com/" target="_blank">
                   <i class="fa-brands fa-xbox"></i>
                   <div class="label">
                     <span class="name">Xbox</span>
@@ -115,5 +120,6 @@
       </div>
     </div>
   </div>
+  <script src="main.js"></script>
 </body>
 </html>
